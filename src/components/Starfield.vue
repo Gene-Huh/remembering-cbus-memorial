@@ -35,11 +35,11 @@ export default {
 	},
 	computed: {
 		countDividedBy100() {
-			dividedBy100 = Math.round(this.Count / 100)
+			const dividedBy100 = Math.round(this.Count / 100)
 			return dividedBy100 > 0 ? dividedBy100 : 0
 		},
 		cumulativeDividedBy100() {
-			dividedBy100 = Math.round(this.Cumulative / 100)
+			const dividedBy100 = Math.round(this.Cumulative / 100)
 			return dividedBy100 > 0 ? dividedBy100 : 0
 		}
 	},
